@@ -1,0 +1,8 @@
+# get data for a given tag
+
+TAG="f20e286156fa464cb3116fa70eae55b7"
+
+curl -X GET \
+  http://127.0.0.1:8000/tags/$TAG \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json' \

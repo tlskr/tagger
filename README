@@ -20,6 +20,7 @@ Activate virtual environment
 
 Install requirements:
 
+    pip install --upgrade pip
     ./scripts/requirements.sh
 
 
@@ -38,6 +39,7 @@ Create database on local postgres environment
 
 Create user 'exerciser' with access to that database:
 
+    psql -f scripts/create_group_bb_users.sql
     psql -f scripts/create_user_exerciser.sql
 
 
@@ -76,6 +78,13 @@ To populate database with data from examples:
 To demonstrate app / API interface
 ----------------------------------
 
+tagger_app.py must be running for the following.
+
+See scripts/example_requests for curl code to list vendors, list tags, post
+data, and get a particular tag.
+
+API returns are also available in a browser (or Postman):
+
 To see listing of vendor ids:
 
     127.0.0.1:8000/vendors
@@ -85,7 +94,7 @@ List of tag ids:
 
     127.0.0.1:8000/tags
 
-
+etc
 Run tests
 =========
 
