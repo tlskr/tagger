@@ -1,0 +1,95 @@
+All commands presume creation and activation of virtual environment
+
+Requirements
+============
+
+Postgres 10.3
+Python 3.6
+
+Setup
+=====
+
+Run scripts/setup.sh
+-   presumes python3 
+
+
+Activate virtual environment
+
+    source env/bin/activate
+
+
+Install requirements:
+
+    ./scripts/requirements.sh
+
+
+
+Database
+--------
+
+Provide credentials to local postgres installation:
+
+    In alembic.ini, edit "sqlalchemy.url" to provide a credential string for your local postgres installation
+
+
+Create database on local postgres environment
+
+    psql -f scripts/create_blue_bite.sql
+
+Create user 'exerciser' with access to that database:
+
+    psql -f scripts/create_user_exerciser.sql
+
+
+
+Run migration
+
+    alembic upgrade head
+
+
+Run app
+=======
+
+To run the app server on local host:
+
+    ./tagger_app.py
+
+
+POST Data
+=========
+
+To enter data via POST:
+
+    run app (above)
+    bash scripts/example_requests/submit_data.curl
+    
+
+
+Sample Data
+===========
+
+To populate database with data from examples:
+
+    ./scripts/load_sample_data.sh
+
+
+To demonstrate app / API interface
+----------------------------------
+
+To see listing of vendor ids:
+
+    127.0.0.1:8000/vendors
+
+
+List of tag ids:
+
+    127.0.0.1:8000/tags
+
+
+Run tests
+=========
+
+    nosetests
+
+Note that tests depend on load of data from file 
+5d207da03b0040578e4c5160597357b7-pretty.json

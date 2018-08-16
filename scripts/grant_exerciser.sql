@@ -1,0 +1,2 @@
+GRANT ALL PRIVILEGES ON DATABASE blue_bite TO exerciser;
+-- GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public.blue_bite TO exerciser;

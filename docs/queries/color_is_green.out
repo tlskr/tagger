@@ -1,0 +1,14 @@
+            vendor_id             |                           tag_metadata                           
+----------------------------------+------------------------------------------------------------------
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "L", "color": "green", "country": "CN"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "color": "green", "country": "UK"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "green", "country": "CN"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "color": "green", "country": "DE"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "green", "country": "UK"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "XL", "type": "car", "color": "green", "country": "US"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey", "color": "green", "country": "BR"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "bag", "color": "green"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "green", "country": "GR"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "green", "country": "FR"}
+(10 rows)
+

@@ -1,0 +1,14 @@
+            vendor_id             |                            tag_metadata                            
+----------------------------------+--------------------------------------------------------------------
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "L", "color": "red", "country": "US"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "color": "black", "country": "ES"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "S", "type": "car", "color": "red"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "L", "color": "green", "country": "CN"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "M", "type": "keyfob", "color": "blue", "country": "ZA"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "XL", "color": "gray"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "color": "green", "country": "UK"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "10", "type": "jersey", "color": "blue", "country": "ZA"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "S", "color": "gray"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "color": "red"}
+(10 rows)
+

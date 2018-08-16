@@ -1,0 +1,14 @@
+            vendor_id             |                     tag_metadata                      
+----------------------------------+-------------------------------------------------------
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey", "color": "black", "country": "FR"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "white"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "10", "type": "keyfob", "country": "US"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "t-shirt", "color": "purple"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "gray", "country": "ZW"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "L", "color": "red", "country": "US"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "color": "black", "country": "ES"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "bag", "color": "purple"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "red", "country": "ES"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "M", "type": "card"}
+(10 rows)
+

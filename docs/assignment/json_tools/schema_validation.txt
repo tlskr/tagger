@@ -1,0 +1,21 @@
+Using jsonschema to validate json files against schema.json
+
+> jsonschema -i docs/assignment/examples/a3e3853750724e2994515bb70d646c32-pretty.json docs/assignment/schema.json
+>
+
+- no output -- a3e is valid, so no errors reported
+
+
+> jsonschema -i docs/assignment/examples/995c3f51ebd7486695d8947152bb38d3-pretty.json docs/assignment/schema.json
+> {'tag_id': '26acbe9a5d834ea1bf4807460ccb80dc', 'metadta': [{'key': 'type', 'value': 'taxi'}, {'key': 'color', 'value': 'red'}]}: 'metadata' is a required property
+> {'kye': 'type', 'value': 'jersey'}: 'key' is a required property
+
+
+- there are items that do not validate, so errors are reported
+
+- note
+
+    - when error is top of a tags element -- "metadta" -- tag_id is reported
+    - when error is inside metadata -- 'kye' -- we do not get the tag id
+
+    - tool reports the particular item failing

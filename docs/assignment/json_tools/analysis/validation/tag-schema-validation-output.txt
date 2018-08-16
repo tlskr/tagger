@@ -1,0 +1,54 @@
+{"tag_id": "64ee849a009d4fed8d907409367c1dd1", "metadata": [{"kye": "type", "value": "jersey"}, {"key": "color", "value": "red"}, {"key": "size", "value": "L"}, {"key": "country", "value": "US"}]}: {"tag_id": "64ee849a009d4fed8d907409367c1dd1", "metadata": [{"kye": "type", "value": "jersey"}, {"key": "color", "value": "red"}, {"key": "size", "value": "L"}, {"key": "country", "value": "US"}]} is not of type "array"
+
+
+{"tag_id": "64ee849a009d4fed8d907409367c1dd1", "metadata": [{"kye": "type", "value": "jersey"}, {"key": "color", "value": "red"}, {"key": "size", "value": "L"}, {"key": "country", "value": "US"}]}
+: 
+{"tag_id": "64ee849a009d4fed8d907409367c1dd1", "metadata": [{"kye": "type", "value": "jersey"}, {"key": "color", "value": "red"}, {"key": "size", "value": "L"}, {"key": "country", "value": "US"}]}
+is not of type "array"
+
+
+{
+  "tag_id": "64ee849a009d4fed8d907409367c1dd1",
+  "metadata": [
+    {
+      "kye": "type",
+      "value": "jersey"
+    },
+    {
+      "key": "color",
+      "value": "red"
+    },
+    {
+      "key": "size",
+      "value": "L"
+    },
+    {
+      "key": "country",
+      "value": "US"
+    }
+  ]
+}
+: 
+{
+  "tag_id": "64ee849a009d4fed8d907409367c1dd1",
+  "metadata": [
+    {
+      "kye": "type",
+      "value": "jersey"
+    },
+    {
+      "key": "color",
+      "value": "red"
+    },
+    {
+      "key": "size",
+      "value": "L"
+    },
+    {
+      "key": "country",
+      "value": "US"
+    }
+  ]
+}
+is not of type "array"
+

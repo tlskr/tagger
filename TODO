@@ -1,0 +1,6 @@
+- support POST of JSON file for bulk upload
+- validate data tag by tag
+- implement queries
+
+- pylint / PEP8
+- general code consolidation / pythonic

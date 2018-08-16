@@ -1,0 +1,14 @@
+            vendor_id             |                            tag_metadata                             
+----------------------------------+---------------------------------------------------------------------
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey", "color": "black", "country": "FR"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "10", "type": "jersey", "color": "blue", "country": "ZA"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "42", "type": "jersey"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey", "country": "DE"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "S", "type": "jersey", "color": "white"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "13", "type": "jersey"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "10", "type": "jersey", "color": "black", "country": "MX"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"size": "S", "type": "jersey", "color": "black", "country": "FR"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey", "country": "MA"}
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey"}
+(10 rows)
+

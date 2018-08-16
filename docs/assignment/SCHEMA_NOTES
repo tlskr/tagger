@@ -1,0 +1,7 @@
+tags-items-schema.json
+
+    validates particular tag objects
+
+tags-schema.json
+
+    validates the tags array

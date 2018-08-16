@@ -1,0 +1,14 @@
+            vendor_id             |                     tag_metadata                      | type_value |   tv2   
+----------------------------------+-------------------------------------------------------+------------+---------
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "jersey", "color": "black", "country": "FR"} | "jersey"   | jersey
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "white"}                                    |            | 
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "keyfob", "size": "10", "country": "US"}     | "keyfob"   | keyfob
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"country": "US"}                                     |            | 
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "t-shirt", "color": "purple"}                | "t-shirt"  | t-shirt
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "gray", "country": "ZW"}                    |            | 
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"type": "taxi", "country": "GR"}                     | "taxi"     | taxi
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"country": "DE"}                                     |            | 
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "red", "size": "L", "country": "US"}        |            | 
+ ad8a8ddb13fa4170bcd65b7080a2c8c3 | {"color": "black", "size": "13", "country": "ES"}     |            | 
+(10 rows)
+
