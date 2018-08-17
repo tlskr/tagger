@@ -81,7 +81,8 @@ To demonstrate app / API interface
 tagger_app.py must be running for the following.
 
 See scripts/example_requests for curl code to list vendors, list tags, post
-data, and get a particular tag.
+data, and get a particular tag.  Output of the requests is documented in the
+various *out files.
 
 API returns are also available in a browser (or Postman):
 
