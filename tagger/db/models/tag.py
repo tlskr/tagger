@@ -57,9 +57,7 @@ class Tag(Base):
     @classmethod
     def load_tags(cls, data):
         session = cls.get_session()
-    
         vendor_id = data['vendor_id']
-    
         for tag in data['tags']:
             new_tag = {}
             for item in tag.get('metadata', []):
@@ -68,9 +66,16 @@ class Tag(Base):
                 new_tag[item['key']] = item.get('value')
 
             this_tag = Tag(
-                    tag_id=tag['tag_id'],
-                    vendor_id=vendor_id,
-                    tag_metadata=new_tag,
-                    )
+                tag_id=tag['tag_id'],
+                vendor_id=vendor_id,
+                tag_metadata=new_tag,
+                )
             session.add(this_tag)       # faster to use add_all()? 
             session.commit()
+
+    @classmethod
+    def query_tag_metadata(cls, qry):
+        session = cls.get_session()
+        qrydct = {qry['key']: qry['value']}
+        data = session.query(Tag).filter(Tag.tag_metadata.contains(qrydct))
+        return [i.all_data for i in list(data.all())]

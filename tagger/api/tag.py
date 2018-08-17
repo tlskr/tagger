@@ -38,6 +38,29 @@ def get_tag_data(tag_id):
     data = Tag.get_tag_data(tag_id)
     return json.dumps(data)
 
+
+@get('/tags/query')
+def query():
+    ''' handle a query '''
+    # TODO: fix endpoint works on requests from Firefox and Postman, fails
+    # from curl and wget
+    #   tags/query?{"key":"color","value":"white"}
+    #   requests from curl and wget end up in qry {"key": "color"}, withoput
+    #   value
+
+    response.headers['Content-Type'] = 'application/json'
+    response.headers['Cache-Control'] = 'no-cache'
+
+    qrystr = [k for k in request.params.keys()][0]  # TODO: fix
+        # is hack usage of request object
+        # need code such that
+        #   /tags/query?{"key": "color", "value": "blue"} -> 
+        #       {"key": "color", "value": "blue"}
+    qry = json.loads(qrystr)
+    data = Tag.query_tag_metadata(qry)
+    return json.dumps(data)
+
+
 @post('/tags')
 def load_tags():
 
@@ -70,4 +93,3 @@ def load_tags():
     response.headers['Cache-Control'] = 'no-cache'
 
     return json.dumps({'status': 'ok'})
-

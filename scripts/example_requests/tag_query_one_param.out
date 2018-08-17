@@ -1,0 +1,21 @@
+#   Response from Postman
+
+[
+    {
+        "tag_id": "5e46365dffe94a07929a5a53544671d6",
+        "vendor_id": "ac15e22e62304a8c966bf5aab9d6f368",
+        "tag_metadata": {
+            "color": "white",
+            "country": "FR"
+        }
+    },
+    {
+        "tag_id": "7094f6b9e99745f9ab91767b89d80c32",
+        "vendor_id": "ac15e22e62304a8c966bf5aab9d6f368",
+        "tag_metadata": {
+            "type": "car",
+            "color": "white",
+            "country": "UK"
+        }
+    }
+]

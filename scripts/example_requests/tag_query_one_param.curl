@@ -1,0 +1,22 @@
+# query tag data
+
+# gets 500 --
+#   only << key:color >> gets through
+#
+#  endpoint does work in Firefox and Postman
+
+BASE_URL="http://127.0.0.1:8000"
+ENDPOINT="/tags/query?"
+QUERY='{"key": "color", "value": "white"}'
+
+URL=$BASE_URL$ENDPOINT$QUERY    # hard to read
+
+#-http://127.0.0.1:8000/tags/query?{"key": "color", "value": "white"}
+
+
+echo $URL
+
+curl -X GET \
+  http://127.0.0.1:8000/tags/query?{"key":"color","value":"white"} \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json'

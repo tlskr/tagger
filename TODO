@@ -2,5 +2,6 @@
 - validate data tag by tag
 - implement queries
 
+- expand tests
 - pylint / PEP8
 - general code consolidation / pythonic

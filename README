@@ -94,7 +94,22 @@ List of tag ids:
 
     127.0.0.1:8000/tags
 
-etc
+The following endpoints are supported:
+
+    GET
+        http://127.0.0.1:8000/tags/f20e286156fa464cb3116fa70eae55b7
+        http://127.0.0.1:8000/tags
+        http://127.0.0.1:8000/vendors
+        http://127.0.0.1:8000/tags/query?{"key":"color","value":"white"}
+        - when requested from firefox and postman; has query string issues from
+          curl and wget
+
+    POST
+        http://127.0.0.1:8000/tags
+        - JSON in request body; limit on data handled
+        - gets HTTP error on invalid schema 
+
+
 Run tests
 =========
 
