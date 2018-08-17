@@ -1,7 +1,43 @@
-- support POST of JSON file for bulk upload
-- validate data tag by tag
-- implement queries
+STATUS
+======
 
-- expand tests
+Works, but rough and incomplete
+- implementation of request incomplete and improvable
+- improper use of tools (SqlAlchemy, Bottle request objects)
+- testing incomplete (and dependent on live database)
+- poor formatting
+
+
+Spec -- Missing
+---------------
+- needs support POST of JSON file for bulk upload
+
+
+Spec -- Improve
+Spec -- Improve
+- validate data tag by tag
+- implement queries -- several criteria
+
+
+Usage / Design
+--------------
+- poor / idiosyncratic usage of 
+    SQLAlchemy API
+        session
+        queries
+    Bottle request object
+- much non-pythonic code
+- non-standard returns from Tag methods?
+
+
+Testing
+-------
+- complete -- routes, model
+- remove test dependent on live database
+- test code against test database
+
+
+Formatting
+----------
 - pylint / PEP8
 - general code consolidation / pythonic
