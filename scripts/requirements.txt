@@ -1,7 +1,7 @@
 alembic==1.0.0
 beautifulsoup4==4.6.3
 bottle==0.12.13
-certifi==2018.8.13
+certifi==2022.12.7
 chardet==3.0.4
 idna==2.7
 inflect==1.0.0
